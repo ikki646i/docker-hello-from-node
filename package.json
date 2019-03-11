@@ -4,7 +4,7 @@
   "description": "Simple Hello World from Node with Docker",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ikki646i/docker-hello-from-node/issues"
   },
-  "homepage": "https://github.com/ikki646i/docker-hello-from-node#readme"
+  "homepage": "https://github.com/ikki646i/docker-hello-from-node#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
